@@ -96,6 +96,7 @@ async def start(bot, cmd):
             START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
+            reply_photo = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
